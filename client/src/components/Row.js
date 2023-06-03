@@ -7,7 +7,7 @@ function Row(){
     const mystyle = {width: '80%', height: "300px", borderRadius: "21px 21px 0 0"}
 
     return(
-        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" data-bs-interval="10000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./pic1.png" class="d-block w-100" height="100%" />

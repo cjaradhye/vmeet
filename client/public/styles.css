@@ -122,3 +122,33 @@ body {
   width: 100%;
   padding: 1rem;
 }
+
+
+.litem{
+  background-color: lightblue;
+}
+.lheading{
+  background-color: rgb(90, 203, 234);
+}
+
+.card{
+  padding: 25px;
+  margin: 10 10 10 10;
+  background-color: #7bc5c9;
+  border-radius: 25px;
+  height: 23rem;
+}
+
+.card:hover{
+  opacity: 85%;
+  /* transform: scale(1.05); */
+}
+
+.second-section{
+  background-color: #393E46;
+  height: 40rem;
+}
+
+.event{
+  padding: 10px 0px;
+}

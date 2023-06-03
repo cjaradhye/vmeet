@@ -19,7 +19,7 @@ export default function ToastComponent(props) {
         <Toast.Body>
         {props.message}
         <div class="mt-2 pt-2 border-top">
-            <button type="button" class="btn btn-primary btn-sm">Got it!</button>
+            <button type="button" class="btn btn-primary btn-sm" data-bs-dismiss="toast">Got it!</button>
             <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Remind Me Later</button>
           </div>
         </Toast.Body>

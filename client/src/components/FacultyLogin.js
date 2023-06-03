@@ -17,7 +17,6 @@ function FacultyLogin(){
             if (response.status === 200) {
                 let data = await response.text();
                 let jsonData = JSON.parse(data);
-                
 
                 for (let i = 0; i < jsonData.faculties.length ; i++ ){
                     if(jsonData[i].name===email){

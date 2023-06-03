@@ -73,7 +73,7 @@ app.route("/sendmessage")
                 console.log(tempName);
                 if(tempName===facultyName){
                     console.log("This is the final name" + facultyName);
-                    data[i].notifications.append(obj)
+                    data[i].notifications.push(obj)
                     name = data[i].name;
                     finalData = data[i].notifications;
                     resolve(finalData);

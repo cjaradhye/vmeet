@@ -15,6 +15,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import FacultyLogin from './components/FacultyLogin';
 
 
 const router = createBrowserRouter([
@@ -34,8 +35,11 @@ const router = createBrowserRouter([
     path: "/",
     element: (<App />)
   },{
-    path: "/facultylogin",
+    path: "/facultyhome",
     element: (<FacultyHome />)
+  },{
+    path: "/facultylogin",
+    element: (<FacultyLogin/>)
   }])
 
 
